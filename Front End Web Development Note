@@ -5,5 +5,15 @@ To create HTML file ------> index.html
 To create CSS file ------> style.css
 To create JavaScript file ------> script.js
 
-
-
+To Connect CSS file with HTML file -------> 2 ways to connect
+                                            (a) Directly write the code in HTML file inside <head> tag by using <style> tag
+                                            (b) By linking the external style.css file by using 
+                                                  (i) If the css file inside the same project folder
+                                                        <link rel = "stylesheet" href = "./style.css" >
+                                                        
+                                                        or
+                                                        
+                                                        link:css + enter   ------- this will convert to <link rel = "stylesheet" href = "style.css" >
+                                                        
+                                                   (ii) If the css file outside the same project folder
+                                                        <link rel = "stylesheet" href = "../style.css" >
